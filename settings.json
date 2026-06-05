@@ -7,7 +7,7 @@
   },
   "server": {
     "ip": "SuperNation.aternos.me",
-    "port": 59635,
+    "port": 25565,
     "version": "1.21.4",
     "try-creative": false
   },
