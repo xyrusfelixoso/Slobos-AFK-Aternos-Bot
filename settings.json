@@ -8,43 +8,41 @@
   "server": {
     "ip": "SuperNation.aternos.me",
     "port": 59635,
-    "version": "1.8.8",
+    "version": "1.21.4",
     "try-creative": false
   },
   "position": {
     "enabled": false,
     "x": 0,
-    "y": 100,
+    "y": 64,
     "z": 0
   },
   "utils": {
     "auto-auth": {
-      "enabled": true,
-      "password": "chalol78"
+      "enabled": false,
+      "password": ""
     },
     "anti-afk": {
       "enabled": true,
       "sneak": true
     },
     "chat-messages": {
-      "enabled": true,
-      "repeat": true,
+      "enabled": false,
+      "repeat": false,
       "repeat-delay": 120,
       "messages": [
-        "I'm a regular player",
-        "Subscribe to Slobos!",
-        "I like to play Minecraft!"
+        "I'm a regular player"
       ]
     },
     "chat-log": true,
     "auto-reconnect": true,
-    "auto-reconnect-delay": 10,
-    "max-reconnect-delay": 120
+    "auto-reconnect-delay": 5000,
+    "max-reconnect-delay": 120000
   },
   "movement": {
     "enabled": true,
     "circle-walk": {
-      "enabled": true,
+      "enabled": false,
       "radius": 4,
       "speed": 3000
     },
@@ -59,14 +57,14 @@
   },
   "modules": {
     "avoidMobs": true,
-    "combat": true,
+    "combat": false,
     "beds": false,
     "chat": true,
     "console-commands": true
   },
   "combat": {
-    "attack-mobs": true,
-    "auto-eat": true
+    "attack-mobs": false,
+    "auto-eat": false
   },
   "beds": {
     "pick-up-day": false,
@@ -82,6 +80,6 @@
     }
   },
   "chat": {
-    "respond": true
+    "respond": false
   }
 }
